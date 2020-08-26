@@ -1,7 +1,7 @@
 var http = require('http'); // http module
 var fs = require('fs'); //file system modulw
 var url = require('url'); //url module
-const prot = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 
 http.createServer(function(req, res) { //function to ceate server on localhost
     var q = url.parse(req.url, true); // q = input url
