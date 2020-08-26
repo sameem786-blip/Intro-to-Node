@@ -1,6 +1,7 @@
 var http = require('http'); // http module
 var fs = require('fs'); //file system modulw
-var url = require('url'); //url modulw
+var url = require('url'); //url module
+const prot = process.env.PORT || 5000
 
 http.createServer(function(req, res) { //function to ceate server on localhost
     var q = url.parse(req.url, true); // q = input url
@@ -18,6 +19,6 @@ http.createServer(function(req, res) { //function to ceate server on localhost
             return res.end(); //return value
         }
     })
-}).listen(5000); //reserve port for this operation
+}).listen(PORT); //reserve port for this operation
 
 console.log(`Bhai kaam chalu hy 8080 number port pe...`);

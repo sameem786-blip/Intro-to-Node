@@ -1,19 +1,20 @@
 {
-  "name": "node",
-  "version": "12.18.3",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sameem786-blip/Intro-to-Node.git"
-  },
-  "author": "sameem Abbas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sameem786-blip/Intro-to-Node/issues"
-  },
-  "homepage": "https://github.com/sameem786-blip/Intro-to-Node#readme"
+    "name": "node",
+    "version": "12.18.3",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sameem786-blip/Intro-to-Node.git"
+    },
+    "author": "sameem Abbas",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/sameem786-blip/Intro-to-Node/issues"
+    },
+    "homepage": "https://github.com/sameem786-blip/Intro-to-Node#readme"
 }
